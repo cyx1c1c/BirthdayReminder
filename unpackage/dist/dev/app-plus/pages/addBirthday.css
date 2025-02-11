@@ -1,0 +1,22 @@
+
+.container[data-v-b67763f9] {
+  max-width: 600px;
+  margin: 0px 50px 50px 50px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+uni-input[data-v-b67763f9], uni-button[data-v-b67763f9], .picker[data-v-b67763f9] {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+uni-button[data-v-b67763f9] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+uni-button[data-v-b67763f9]:hover {
+  background-color: #218838;
+}

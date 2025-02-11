@@ -1,0 +1,60 @@
+{
+	"pages": [
+		{
+			"path": "pages/addBirthday",
+			"style": {
+				"navigationBarTitleText": "添加生日"
+			}
+		},
+		{
+			"path": "pages/birthdayList",
+			"style": {
+				"navigationBarTitleText": "生日列表"
+			}
+		},
+		{
+			"path": "pages/personalcenter",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/detail",
+			"style": {
+				"navigationBarTitleText": "生日详情"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#007AFF",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/addBirthday",
+				"text": "添加生日",
+				"iconPath": "static/icon1.png",
+				"selectedIconPath": "static/icon1_selected.png"
+			},
+			{
+				"pagePath": "pages/birthdayList",
+				"text": "生日列表",
+				"iconPath": "static/icon2.png",
+				"selectedIconPath": "static/icon2_selected.png"
+			},
+			{
+				"pagePath": "pages/personalcenter",
+				"text": "个人中心",
+				"iconPath": "static/icon3.png",
+				"selectedIconPath": "static/icon3_selected.png"
+			}
+		]
+	}
+}
